@@ -1,10 +1,15 @@
-﻿<Properties StartupConfiguration="{E4F7AE39-87EC-4B6E-B681-7AF046A43F15}|Default">
+﻿<Properties StartupConfiguration="{B159C75E-1C35-4506-A9B3-48511F643023}|Default">
   <MonoDevelop.Ide.ItemProperties.HelloWorld PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="HelloWorld/Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="HelloWorldiOS/Main.storyboard">
     <Files>
-      <File FileName="HelloWorld/Program.cs" Line="13" Column="1" />
+      <File FileName="HelloWorld/Program.cs" Line="21" Column="13" />
+      <File FileName="HelloWorldiOS/AppDelegate.cs" Line="1" Column="1" />
+      <File FileName="HelloWorldiOS/Main.storyboard" />
     </Files>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.HelloWorldiOS>
+    <MonoDevelop.MacDev.AppleDevelopmentTeam />
+  </MonoDevelop.Ide.ItemProperties.HelloWorldiOS>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
