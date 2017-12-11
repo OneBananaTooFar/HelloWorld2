@@ -1,13 +1,13 @@
-﻿<Properties StartupConfiguration="{B159C75E-1C35-4506-A9B3-48511F643023}|Default">
+﻿<Properties StartupConfiguration="{12298884-1530-4EBE-B3B4-AF0DF7D2B695}|Default">
   <MonoDevelop.Ide.ItemProperties.HelloWorld PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="HelloWorldiOS/Main.storyboard">
+  <MonoDevelop.Ide.Workbench ActiveDocument="HelloWorldiOS/ViewController.cs">
     <Files>
       <File FileName="HelloWorld/Program.cs" Line="21" Column="13" />
-      <File FileName="HelloWorldiOS/AppDelegate.cs" Line="1" Column="1" />
       <File FileName="HelloWorldiOS/Main.storyboard" />
+      <File FileName="HelloWorldiOS/ViewController.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.HelloWorldiOS>
+  <MonoDevelop.Ide.ItemProperties.HelloWorldiOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.C4ED9EAA-E49D-4941-AFC9-E7E4FDF28FBF">
     <MonoDevelop.MacDev.AppleDevelopmentTeam />
   </MonoDevelop.Ide.ItemProperties.HelloWorldiOS>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />

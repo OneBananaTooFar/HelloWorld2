@@ -1,0 +1,9 @@
+/Users/juliosd1/Desktop/repos1/HelloWorldiOS/bin/iPhoneSimulator/Debug/HelloWorldiOS.exe
+/Users/juliosd1/Desktop/repos1/HelloWorldiOS/bin/iPhoneSimulator/Debug/HelloWorldiOS.pdb
+/Users/juliosd1/Desktop/repos1/HelloWorldiOS/obj/iPhoneSimulator/Debug/ibtool/_BundleResourceWithLogicalName.items
+/Users/juliosd1/Desktop/repos1/HelloWorldiOS/obj/iPhoneSimulator/Debug/actool/_PartialAppManifest.items
+/Users/juliosd1/Desktop/repos1/HelloWorldiOS/obj/iPhoneSimulator/Debug/actool/_BundleResourceWithLogicalName.items
+/Users/juliosd1/Desktop/repos1/HelloWorldiOS/obj/iPhoneSimulator/Debug/optimized/
+/Users/juliosd1/Desktop/repos1/HelloWorldiOS/obj/iPhoneSimulator/Debug/HelloWorldiOS.csproj.CoreCompileInputs.cache
+/Users/juliosd1/Desktop/repos1/HelloWorldiOS/obj/iPhoneSimulator/Debug/HelloWorldiOS.exe
+/Users/juliosd1/Desktop/repos1/HelloWorldiOS/obj/iPhoneSimulator/Debug/HelloWorldiOS.pdb

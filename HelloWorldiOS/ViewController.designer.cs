@@ -1,17 +1,86 @@
-﻿//
-// This file has been generated automatically by MonoDevelop to store outlets and
-// actions made in the Xcode designer. If it is removed, they will be lost.
-// Manual changes to this file may not be handled correctly.
+// WARNING
+//
+// This file has been generated automatically by Visual Studio from the outlets and
+// actions declared in your storyboard file.
+// Manual changes to this file will not be maintained.
 //
 using Foundation;
+using System;
+using System.CodeDom.Compiler;
 
 namespace HelloWorldiOS
 {
-    [Register("ViewController")]
+    [Register ("ViewController")]
     partial class ViewController
     {
-        void ReleaseDesignerOutlets()
+        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
+        UIKit.UIButton buttonAdd { get; set; }
+
+        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
+        UIKit.UIButton buttonDivide { get; set; }
+
+        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
+        UIKit.UIButton buttonMultiply { get; set; }
+
+        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
+        UIKit.UIButton buttonSubtract { get; set; }
+
+        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
+        UIKit.UILabel labelAnswer { get; set; }
+
+        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
+        UIKit.UITextField txt1stNum { get; set; }
+
+        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
+        UIKit.UITextField txt2ndNum { get; set; }
+
+        [Action ("UIButton393_TouchUpInside:")]
+        [GeneratedCode ("iOS Designer", "1.0")]
+        partial void UIButton393_TouchUpInside (UIKit.UIButton sender);
+
+        void ReleaseDesignerOutlets ()
         {
+            if (buttonAdd != null) {
+                buttonAdd.Dispose ();
+                buttonAdd = null;
+            }
+
+            if (buttonDivide != null) {
+                buttonDivide.Dispose ();
+                buttonDivide = null;
+            }
+
+            if (buttonMultiply != null) {
+                buttonMultiply.Dispose ();
+                buttonMultiply = null;
+            }
+
+            if (buttonSubtract != null) {
+                buttonSubtract.Dispose ();
+                buttonSubtract = null;
+            }
+
+            if (labelAnswer != null) {
+                labelAnswer.Dispose ();
+                labelAnswer = null;
+            }
+
+            if (txt1stNum != null) {
+                txt1stNum.Dispose ();
+                txt1stNum = null;
+            }
+
+            if (txt2ndNum != null) {
+                txt2ndNum.Dispose ();
+                txt2ndNum = null;
+            }
         }
     }
 }
