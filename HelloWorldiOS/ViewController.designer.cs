@@ -41,9 +41,9 @@ namespace HelloWorldiOS
         [GeneratedCode ("iOS Designer", "1.0")]
         UIKit.UITextField txt2ndNum { get; set; }
 
-        [Action ("UIButton393_TouchUpInside:")]
+        [Action ("ButtonAdd_TouchUpInside:")]
         [GeneratedCode ("iOS Designer", "1.0")]
-        partial void UIButton393_TouchUpInside (UIKit.UIButton sender);
+        partial void ButtonAdd_TouchUpInside (UIKit.UIButton sender);
 
         void ReleaseDesignerOutlets ()
         {

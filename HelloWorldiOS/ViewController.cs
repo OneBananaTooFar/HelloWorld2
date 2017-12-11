@@ -18,9 +18,7 @@ namespace HelloWorldiOS
        
             labelAnswer.Text = "Answer Here.";
 
-            float num1 = float.Parse(txt1stNum.Text);
-            float num2 = float.Parse(txt2ndNum.Text);
-
+          
             buttonAdd.TouchUpInside+= ButtonAdd_TouchUpInside;
             buttonSubtract.TouchUpInside+= ButtonSubtract_TouchUpInside;
             buttonMultiply.TouchUpInside+= ButtonMultiply_TouchUpInside;
@@ -30,22 +28,46 @@ namespace HelloWorldiOS
 
         void ButtonAdd_TouchUpInside(object sender, EventArgs e)
         {
+			float num1 = float.Parse(txt1stNum.Text);
+			float num2 = float.Parse(txt2ndNum.Text);
 
-        }
+
+            float result = num1 + num2;
+
+            labelAnswer.Text = result.ToString();
+		}
 
         void ButtonSubtract_TouchUpInside(object sender, EventArgs e)
         {
+			float num1 = float.Parse(txt1stNum.Text);
+			float num2 = float.Parse(txt2ndNum.Text);
 
+
+			float result = num1 - num2;
+
+			labelAnswer.Text = result.ToString();
         }
 
         void ButtonMultiply_TouchUpInside(object sender, EventArgs e)
         {
+			float num1 = float.Parse(txt1stNum.Text);
+			float num2 = float.Parse(txt2ndNum.Text);
 
+
+			float result = num1 * num2;
+
+			labelAnswer.Text = result.ToString();
         }
 
         void ButtonDivide_TouchUpInside(object sender, EventArgs e)
         {
+			float num1 = float.Parse(txt1stNum.Text);
+			float num2 = float.Parse(txt2ndNum.Text);
 
+
+			float result = num1 / num2;
+
+			labelAnswer.Text = result.ToString();
         }
 
         public override void DidReceiveMemoryWarning()
