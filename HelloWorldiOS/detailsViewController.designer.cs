@@ -14,16 +14,8 @@ namespace HelloWorldiOS
     [Register ("detailsViewController")]
     partial class detailsViewController
     {
-        [Outlet]
-        [GeneratedCode ("iOS Designer", "1.0")]
-        UIKit.UILabel labelDetailsNew { get; set; }
-
         void ReleaseDesignerOutlets ()
         {
-            if (labelDetailsNew != null) {
-                labelDetailsNew.Dispose ();
-                labelDetailsNew = null;
-            }
         }
     }
 }
