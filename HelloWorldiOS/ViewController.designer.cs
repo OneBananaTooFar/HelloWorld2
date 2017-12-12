@@ -15,11 +15,11 @@ namespace HelloWorldiOS
     {
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
-        UIKit.UIButton buttonAddNew { get; set; }
+        UIKit.UIButton buttonDivide { get; set; }
 
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
-        UIKit.UIButton buttonDivide { get; set; }
+        UIKit.UIButton buttonFill { get; set; }
 
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
@@ -43,14 +43,14 @@ namespace HelloWorldiOS
 
         void ReleaseDesignerOutlets ()
         {
-            if (buttonAddNew != null) {
-                buttonAddNew.Dispose ();
-                buttonAddNew = null;
-            }
-
             if (buttonDivide != null) {
                 buttonDivide.Dispose ();
                 buttonDivide = null;
+            }
+
+            if (buttonFill != null) {
+                buttonFill.Dispose ();
+                buttonFill = null;
             }
 
             if (buttonMultiply != null) {

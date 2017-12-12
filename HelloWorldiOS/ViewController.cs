@@ -19,7 +19,7 @@ namespace HelloWorldiOS
             labelAnswer.Text = "Answer Here.";
 
 
-            buttonAddNew.TouchUpInside+= buttonAddNew_TouchUpInside;
+            buttonFill.TouchUpInside+= ButtonFill_TouchUpInside;
             buttonSubtract.TouchUpInside+= ButtonSubtract_TouchUpInside;
             buttonMultiply.TouchUpInside+= ButtonMultiply_TouchUpInside;
             buttonDivide.TouchUpInside+= ButtonDivide_TouchUpInside;
@@ -28,17 +28,17 @@ namespace HelloWorldiOS
 
 
 
+		void ButtonFill_TouchUpInside(object sender, EventArgs e)
+		{
+			float num1 = float.Parse(txt1stNum.Text);
+			float num2 = float.Parse(txt2ndNum.Text);
 
 
-		/*
-         * float num1 = float.Parse(txt1stNum.Text);
-            float num2 = float.Parse(txt2ndNum.Text);
-
-
-            float result = num1 + num2;
+			float result = num1 + num2;
 
             labelAnswer.Text = result.ToString();
-            */
+		}
+
 
         void ButtonSubtract_TouchUpInside(object sender, EventArgs e)
         {

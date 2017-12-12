@@ -105,7 +105,7 @@
                         <outlet property="buttonSubtract" destination="394" id="name-outlet-394"/>
                         <outlet property="buttonMultiply" destination="395" id="name-outlet-395"/>
                         <outlet property="buttonDivide" destination="396" id="name-outlet-396"/>
-                        <outlet property="buttonAddNew" destination="1618" id="name-outlet-1618"/>
+                        <outlet property="buttonFill" destination="1618" id="name-outlet-1618"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
