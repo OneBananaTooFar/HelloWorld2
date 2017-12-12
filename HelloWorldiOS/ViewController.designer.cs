@@ -15,7 +15,7 @@ namespace HelloWorldiOS
     {
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
-        UIKit.UIButton buttonAdd { get; set; }
+        UIKit.UIButton buttonAddNew { get; set; }
 
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
@@ -41,15 +41,11 @@ namespace HelloWorldiOS
         [GeneratedCode ("iOS Designer", "1.0")]
         UIKit.UITextField txt2ndNum { get; set; }
 
-        [Action ("ButtonAdd_TouchUpInside:")]
-        [GeneratedCode ("iOS Designer", "1.0")]
-        partial void ButtonAdd_TouchUpInside (UIKit.UIButton sender);
-
         void ReleaseDesignerOutlets ()
         {
-            if (buttonAdd != null) {
-                buttonAdd.Dispose ();
-                buttonAdd = null;
+            if (buttonAddNew != null) {
+                buttonAddNew.Dispose ();
+                buttonAddNew = null;
             }
 
             if (buttonDivide != null) {
