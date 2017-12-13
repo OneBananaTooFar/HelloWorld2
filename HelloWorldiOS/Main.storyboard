@@ -151,8 +151,8 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="3131" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
-                                <rect key="frame" x="166" y="242" width="42" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="3565" translatesAutoresizingMaskIntoConstraints="NO">
+                                <rect key="frame" x="166" y="210" width="42" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -160,17 +160,17 @@
                         </subviews>
                         <variation key="default">
                             <mask key="subviews">
-                                <exclude reference="3131"/>
+                                <exclude reference="3565"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
                             <mask key="subviews">
-                                <include reference="3131"/>
+                                <include reference="3565"/>
                             </mask>
                         </variation>
                     </view>
                     <connections>
-                        <outlet property="labelDetailsNew" destination="3131" id="name-outlet-3131"/>
+                        <outlet property="theRealLabelDetails" destination="3565" id="name-outlet-3565"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3010" userLabel="First Responder" sceneMemberID="firstResponder"/>

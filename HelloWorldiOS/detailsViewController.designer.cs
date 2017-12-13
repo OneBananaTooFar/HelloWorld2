@@ -14,8 +14,16 @@ namespace HelloWorldiOS
     [Register ("detailsViewController")]
     partial class detailsViewController
     {
+        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
+        UIKit.UILabel theRealLabelDetails { get; set; }
+
         void ReleaseDesignerOutlets ()
         {
+            if (theRealLabelDetails != null) {
+                theRealLabelDetails.Dispose ();
+                theRealLabelDetails = null;
+            }
         }
     }
 }
